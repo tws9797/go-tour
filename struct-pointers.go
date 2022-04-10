@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
-//Vertex is defined in structs.go
+type Vertex struct {
+	X, Y int
+}
 
 func main() {
 	v := Vertex{1, 2}
