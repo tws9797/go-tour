@@ -12,5 +12,4 @@ func main() {
 	for _, value := range pow {
 		fmt.Printf("%d\n", value)
 	}
-
 }
