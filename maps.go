@@ -21,5 +21,11 @@ func main() {
 	fmt.Printf("%p\n", &m)
 
 	//The zero value of a map is nil. A nil map has no keys, nor can keys be added
-	fmt.Println(y)
+	//fmt.Println(y)
+	//panic: assignment to entry in nil map
+	//y["test"] = Vertex{1, 2}
+
+	z := make(map[string]Vertex)
+	z["test"] = Vertex{1, 2}
+	fmt.Println(z)
 }
