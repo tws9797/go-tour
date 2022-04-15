@@ -7,7 +7,7 @@ type Vertex struct {
 }
 
 //Methods with pointer receivers take either a value or a pointer as the receiver when they are called
-func (v *Vertex) Scale(f float64) {
+func (v Vertex) Scale(f float64) {
 	v.X = v.X * f
 	v.Y = v.Y * f
 }
