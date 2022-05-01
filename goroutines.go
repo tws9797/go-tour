@@ -12,10 +12,13 @@ func say(s string) {
 	}
 }
 
+<<<<<<< HEAD
 /*
 	Go is a concurrent language and not a parallel one
 	The main function runs in its own Goroutine and it's called the main Goroutine
 */
+=======
+>>>>>>> 38bfdeb4901bc0b16f50484061baf3eef27007bc
 func main() {
 
 	//A goroutine is a lightweight thread managed by the Go runtime
